@@ -13,3 +13,10 @@ function Phone(brand, price, color, rating) {
 var iPhone6S = new Phone("Apple", 2250, "silver", "7");
 var SamsungGalaxy6 = new Phone("Samsung", 1800, "black", "5");
 var NokiaLumia1200 = new Phone("Nokia", 1200, "red", "1");
+
+iPhone6S.printInfo()
+SamsungGalaxy6.printInfo()
+NokiaLumia1200.printInfo()
+iPhone6S.printRating()
+SamsungGalaxy6.printRating()
+NokiaLumia1200.printRating()
